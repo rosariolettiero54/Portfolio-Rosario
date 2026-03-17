@@ -1,0 +1,49 @@
+/* ============================================
+   SEZIONE CERTIFICATI
+   ============================================= */
+
+/* Certificati */
+.certificates {
+    background-color: var(--second-bg-color);
+    background-image: 
+        radial-gradient(circle at 70% 30%, rgba(0, 255, 136, 0.03) 0%, transparent 50%);
+    padding: 100px 12%;
+}
+
+.certificates-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2.5rem;
+}
+
+.certificate-card {
+    background-color: var(--bg-color);
+    border: 2px solid var(--main-color);
+    border-radius: 2rem;
+    padding: 2.5rem;
+    text-align: center;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+.certificate-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 0 25px var(--main-color);
+}
+
+.certificate-icon {
+    font-size: 5rem;
+    color: var(--main-color);
+    margin-bottom: 1.5rem;
+}
+
+.certificate-info h3 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+.certificate-info p {
+    font-size: 1.4rem;
+    color: #aaa;
+    margin-bottom: 1.5rem;
+}

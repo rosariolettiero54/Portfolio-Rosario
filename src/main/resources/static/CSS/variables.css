@@ -1,0 +1,66 @@
+/* ============================================
+   VARIABILI E RESET
+   ============================================= */
+
+/* Variabili colori */
+:root {
+    --bg-color: #0a0a0a;
+    --second-bg-color: #0f0f14;
+    --text-color: #e0e0e0;
+    --main-color: #00ff88;
+    --accent-color: #00d4ff;
+    --code-color: #1a1a2e;
+}
+
+/* Reset di base */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    border: none;
+    outline: none;
+    font-family: "Poppins", sans-serif;
+}
+
+html {
+    font-size: 60%;
+    overflow-x: hidden;
+}
+
+body {
+    background-color: var(--bg-color);
+    color: var(--text-color);
+    background-image: 
+        radial-gradient(ellipse at top, rgba(0, 255, 136, 0.05) 0%, transparent 50%),
+        radial-gradient(ellipse at bottom right, rgba(0, 212, 255, 0.03) 0%, transparent 50%);
+}
+
+/* Heading comune */
+.heading {
+    font-size: 8rem;
+    text-align: center;
+    margin: 5rem 0;
+}
+
+span {
+    color: var(--main-color);
+}
+
+/* Scrollbar */
+::-webkit-scrollbar {
+    width: 15px;
+}
+
+::-webkit-scrollbar-track {
+    background: var(--bg-color);
+}
+
+::-webkit-scrollbar-thumb {
+    background: var(--main-color);
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: var(--accent-color);
+}

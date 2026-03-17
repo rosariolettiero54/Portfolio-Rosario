@@ -1,0 +1,22 @@
+/* ============================================
+   FOOTER
+   ============================================= */
+
+/* Footer */
+.footer {
+    padding: 40px 0;
+    background-color: var(--second-bg-color);
+    text-align: center;
+    border-top: 1px solid rgba(0, 255, 136, 0.1);
+}
+
+.footer .copyright {
+    font-size: 1.6rem;
+    color: var(--text-color);
+    font-family: 'Fira Code', 'Courier New', monospace;
+}
+
+.footer .copyright::before {
+    content: '// ';
+    color: var(--main-color);
+}

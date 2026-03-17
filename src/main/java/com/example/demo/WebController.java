@@ -9,7 +9,7 @@ public class WebController {
     // Mappa la Home Page
     @GetMapping("/")
     public String home() {
-        return "index"; // Corrisponde a templates/index.html
+        return "index";
     }
 
     // Mappa Chi Sono

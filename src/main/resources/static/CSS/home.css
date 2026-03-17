@@ -1,0 +1,95 @@
+/* ============================================
+   SEZIONE HOME
+   ============================================= */
+
+/* Home con sfondo programmazione */
+.home {
+    min-height: 100vh;
+    padding: 10rem 12%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5rem;
+    background: 
+        linear-gradient(180deg, rgba(10, 10, 10, 0.95) 0%, rgba(10, 10, 10, 0.85) 100%),
+        repeating-linear-gradient(90deg, transparent 0px, transparent 50px, rgba(0, 255, 136, 0.03) 50px, rgba(0, 255, 136, 0.03) 51px),
+        repeating-linear-gradient(0deg, transparent 0px, transparent 50px, rgba(0, 255, 136, 0.03) 50px, rgba(0, 255, 136, 0.03) 51px);
+    background-size: 100% 100%, 51px 51px, 51px 51px;
+    position: relative;
+    overflow: hidden;
+}
+
+/* Codice in background */
+.home::before {
+    content: 'public static void main() { if(debug) { while(true) { code(); } } }  println("Hello World");  import java.util.*;  class Developer { }  function init() { return true; }  <html> <body> </body> </html>  SELECT * FROM skills WHERE level > 0;  git commit -m "fix: success"  npm install --save-dev creativity';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) rotate(-12deg);
+    font-family: 'Fira Code', 'Courier New', monospace;
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: var(--main-color);
+    opacity: 0.04;
+    pointer-events: none;
+    white-space: nowrap;
+    z-index: 0;
+    line-height: 2.5;
+    letter-spacing: 2px;
+}
+
+/* Terminale */
+.home::after {
+    content: '>_ ROSARIO LETTIERO';
+    position: absolute;
+    bottom: 10%;
+    left: 12%;
+    font-family: 'Fira Code', 'Courier New', monospace;
+    font-size: 1.2rem;
+    color: var(--main-color);
+    opacity: 0.3;
+    z-index: 0;
+}
+
+/* Contenuto Home */
+.home-content {
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+    text-align: left;
+    position: relative;
+    z-index: 1;
+}
+
+.home-content h1 {
+    font-size: 7rem;
+    font-weight: 700;
+    line-height: 1;
+}
+
+.home-content h1 span {
+    color: var(--main-color);
+}
+
+.home-content h3 {
+    font-size: 3.5rem;
+    margin-bottom: 2rem;
+}
+
+.text-animation {
+    font-size: 34px;
+    font-weight: 600;
+}
+
+/* Immagine profilo */
+.home-img img {
+    width: 32vw;
+    border-radius: 50%;
+    box-shadow: 0 0 25px var(--main-color);
+    cursor: pointer;
+    transition: 0.4s;
+}
+
+.home-img img:hover {
+    box-shadow: 0 0 25px var(--main-color), 0 0 50px var(--main-color), 0 0 100px var(--main-color);
+}
