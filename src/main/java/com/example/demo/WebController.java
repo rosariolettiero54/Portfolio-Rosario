@@ -35,10 +35,4 @@ public class WebController {
     public String certificati() {
         return "HTML/certificati";
     }
-
-    // Mappa Contattami
-    @GetMapping("/contattami")
-    public String contattami() {
-        return "HTML/contattami";
-    }
 }
