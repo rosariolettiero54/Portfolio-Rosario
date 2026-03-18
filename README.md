@@ -162,3 +162,8 @@ Progetto finale realizzato in gruppo - un'applicazione per la gestione di task e
 ---
 
 Sviluppato con passione per la tecnologia e lo sviluppo software.
+
+
+---
+
+Sviluppato con passione per la tecnologia e lo sviluppo software.
