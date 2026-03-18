@@ -25,7 +25,6 @@ Il sito è stato costruito utilizzando **Spring Boot** per il backend e **HTML, 
 
 ### Strumenti
 - **Maven** (gestione dipendenze)
-- **MySQL** (database - progetto Questboard)
 - **Git** (controllo versione)
 
 ## Struttura del Progetto
