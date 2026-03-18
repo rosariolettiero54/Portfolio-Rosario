@@ -38,21 +38,21 @@
 }
 
 .project-info h3 {
-    font-size: 2.4rem;
+    font-size: 2rem;
     margin-bottom: 1rem;
 }
 
 .project-info p {
-    font-size: 1.5rem;
+    font-size: 1.6rem;
     color: #ccc;
-    margin-bottom: 1.5rem;
+    margin-bottom: 1.4rem;
 }
 
 .project-tags {
     display: flex;
     flex-wrap: wrap;
     gap: 0.8rem;
-    margin-bottom: 2rem;
+    margin-bottom: 0.3rem;
 }
 
 .project-tags span {
@@ -61,10 +61,27 @@
     color: var(--main-color);
     padding: 0.4rem 1.2rem;
     border-radius: 2rem;
-    font-size: 1.3rem;
+    font-size: 1.4rem;
 }
 
 .project-links {
     display: flex;
     gap: 1rem;
+}
+
+/* Immagini di sfondo per i progetti */
+.project-card.just-burger {
+    background-image: url('https://image2url.com/r2/default/images/1773844594195-6ceedb2e-e14a-41b6-9899-87245d6183f5.png');
+    background-size: 150px auto;
+    background-repeat: no-repeat;
+    background-position: center top;
+    padding-top: 170px;
+}
+
+.project-card.questboard {
+    background-image: url('https://image2url.com/r2/default/images/1773844717599-31df4d5f-5fc8-4b01-bfdd-19a53a245956.png');
+    background-size: 150px auto;
+    background-repeat: no-repeat;
+    background-position: center top;
+    padding-top: 170px;
 }
