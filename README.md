@@ -29,28 +29,38 @@ Il sito è stato costruito utilizzando **Spring Boot** per il backend e **HTML, 
 ## Struttura del Progetto
 
 ```
-Portfolio Rosario/
-├── demo/                          # Applicazione Spring Boot
-│   ├── src/main/java/            # Codice sorgente Java
-│   │   └── com/exampleportfoliorosario/
-│   │       └── demo/
-│   │           └── DemoApplication.java
-│   ├── src/main/resources/        # Risorse applicazione
-│   │   ├── application.properties
-│   │   ├── css/
-│   │   │   └── style.css
-│   │   ├── html/
-│   │   │   ├── index.html         # Home page
-│   │   │   ├── chi-sono.html     # Pagina "Chi sono"
-│   │   │   ├── esperienze.html   # Esperienze lavorative
-│   │   │   ├── progetti.html     # Progetti realizzati
-│   │   │   └── certificati.html   # Certificazioni
-│   │   └── js/
-│   │       └── script.js
-│   └── pom.xml                   # Configurazione Maven
-├── certificati/                  # Certificati PDF
-├── foto/                         # Immagini profilo
-└── README.md                     # Questo file
+PORTFOLIO/
+├── src/main/java/com/example/demo/
+│   ├── DemoApplication.java           # Applicazione Spring Boot
+│   └── WebController.java             # Controller web
+├── src/main/resources/
+│   ├── application.properties
+│   ├── static/
+│   │   ├── CSS/
+│   │   │   ├── style.css              # Stili principali
+│   │   │   ├── progetti.css           # Stili pagina progetti
+│   │   │   ├── esperienze.css         # Stili pagina esperienze
+│   │   │   ├── certificati.css        # Stili pagina certificati
+│   │   │   ├── chisono.css            # Stili pagina chi sono
+│   │   │   ├── header.css             # Stili header
+│   │   │   ├── footer.css             # Stili footer
+│   │   │   ├── home.css               # Stili home
+│   │   │   └── variables.css          # Variabili CSS
+│   │   ├── JS/
+│   │   │   └── script.js              # Script JavaScript
+│   │   ├── foto/
+│   │   │   └── rosario.jpeg           # Foto profilo
+│   │   ├── certificati/               # Certificati PDF
+│   │   └── CV Rosario Lettiero.pdf    # Curriculum
+│   └── templates/
+│       ├── index.html                 # Home page
+│       └── HTML/
+│           ├── chi-sono.html          # Pagina "Chi sono"
+│           ├── esperienze.html        # Esperienze lavorative
+│           ├── progetti.html          # Progetti realizzati
+│           └── certificati.html       # Certificazioni
+├── pom.xml                            # Configurazione Maven
+└── README.md                          # Questo file
 ```
 
 ## Pagine del Sito
@@ -58,7 +68,7 @@ Portfolio Rosario/
 1. **Home** - Presentazione principale con links ai profili social
 2. **Chi sono** - Biografia, formazione e competenze tecniche
 3. **Esperienze** - Esperienze lavorative e competenze
-4. **Progetti** - Progetti realizzati (Questboard, Portfolio Website)
+4. **Progetti** - Progetti realizzati (Questboard, Just Burger)
 5. **Certificati** - Certificazioni e attestati
 
 ## Competenze Tecniche
@@ -92,12 +102,11 @@ Portfolio Rosario/
 1. **Clona il repository**
    ```bash
    git clone <repository-url>
-   cd Portfolio Rosario
+   cd PORTFOLIO
    ```
 
 2. **Compila il progetto**
    ```bash
-   cd demo
    ./mvnw clean install
    ```
 
@@ -111,17 +120,17 @@ Portfolio Rosario/
 
 ## Progetti Inclusi
 
+### Just Burger
+Progetto iniziale del corso Jr Java Developer - piattaforma web vetrina ed e-commerce per una catena di hamburgerie gourmet.
+
+- **Tecnologie**: HTML, CSS, JavaScript
+- **Caratteristiche**: Design scuro/chiaro, e-commerce, responsive
+
 ### Questboard
 Progetto finale realizzato in gruppo - un'applicazione per la gestione di task e punteggi in ambito gaming/LAN.
 
 - **Tecnologie**: React, HTML, CSS, JavaScript
 - **Caratteristiche**: Interfaccia scura gaming, navigazione veloce, gestione dati in real-time
-
-### Portfolio Website
-Sito portfolio personale sviluppato per presentare il profilo professionale.
-
-- **Tecnologie**: HTML, CSS, JavaScript
-- **Caratteristiche**: Design responsive, navigazione intuitiva
 
 ## Certificazioni
 
