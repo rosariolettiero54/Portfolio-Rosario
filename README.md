@@ -14,7 +14,6 @@ Il sito è stato costruito utilizzando **Spring Boot** per il backend e **HTML, 
 - **Java 21**
 - **Spring Boot 4.0.3**
 - **Spring Boot Starter**
-- **Spring Boot Actuator**
 
 ### Frontend
 - **HTML5**
