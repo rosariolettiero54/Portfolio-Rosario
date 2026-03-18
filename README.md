@@ -14,7 +14,6 @@ Il sito è stato costruito utilizzando **Spring Boot** per il backend e **HTML, 
 - **Java 21**
 - **Spring Boot 4.0.3**
 - **Spring Boot Starter**
-- **Spring Boot Actuator**
 
 ### Frontend
 - **HTML5**
@@ -25,7 +24,6 @@ Il sito è stato costruito utilizzando **Spring Boot** per il backend e **HTML, 
 
 ### Strumenti
 - **Maven** (gestione dipendenze)
-- **MySQL** (database - progetto Questboard)
 - **Git** (controllo versione)
 
 ## Struttura del Progetto
