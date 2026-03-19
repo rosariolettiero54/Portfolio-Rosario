@@ -1,9 +1,7 @@
 services:
   - type: web
     name: portfolio-rosario
-    runtime: java
-    buildCommand: chmod +x mvnw && ./mvnw clean install -DskipTests
-    startCommand: java -jar target/*.jar
+    runtime: docker
     envVars:
-      - key: JAVA_VERSION
-        value: 21
+      - key: PORT
+        value: 8080
