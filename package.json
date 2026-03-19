@@ -1,0 +1,22 @@
+{
+  "name": "portfolio",
+  "version": "1.0.0",
+  "description": "Sito web personale di Rosario Lettiero, Junior Java Developer.",
+  "main": "index.js",
+ "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rosariolettiero54/Porfolio-Rosario.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/rosariolettiero54/Porfolio-Rosario/issues"
+  },
+  "homepage": "https://github.com/rosariolettiero54/Porfolio-Rosario#readme"
+}
